@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color:#b8b8b8;
+}
+li, a, button{
+    font-family: sans-serif;
+    font-weight: 500;
+font-size: 16px;
+color:#edf0f1;
+text-decoration: none;
+}
+header  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+
+}
+nav{
+    order:1 ;
+}
+.nav_link{
+    list-style: none;
+}
+.nav_link li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav_link li a {
+    transition: all 0.3s ease 0s;
+}
+.nav_link li a:hover{
+    color:lightgreen;
+}
+.cta{
+    order: 2;
+}
+button{
+    padding: 9px 25px;
+    background-color: rgb(0, 169, 70);
+    border: none;
+border-radius: 50px;
+cursor:pointer ;
+transition: all 0.3s ease 0s;
+}
+
+button:hover{
+    background-color: black;
+}
